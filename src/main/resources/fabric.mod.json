@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jujutsucraft",
+  "version": "1.0.0",
+  "name": "Jujutsu Craft",
+  "description": "Gojo's Hollow Purple ability from Jujutsu Kaisen for Minecraft 1.21.1",
+  "authors": ["TPLSAHIL98"],
+  "contact": {
+    "homepage": "https://github.com/TPLSAHIL98"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.jujutsucraft.JujutsuCraftMod"],
+    "client": ["com.jujutsucraft.client.JujutsuCraftClient"]
+  },
+  "mixins": ["jujutsu_craft.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
